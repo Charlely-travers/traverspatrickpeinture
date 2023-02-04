@@ -58,7 +58,7 @@ createApp({
       this.chargement = true;
       this.showModalCommande= false;
       this.chargement = false;
-      window.location.href="./remerciement.html";
+      // window.location.href="./remerciement.html";
     },
 },
 }).mount('#app')
