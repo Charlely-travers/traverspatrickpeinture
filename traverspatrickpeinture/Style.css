@@ -1,0 +1,659 @@
+@font-face{
+    font-family: "Milkshake";
+src: url('Milkshake.ttf') format("truetype");
+}
+
+.show
+{
+    display:block;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+.logo
+{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    /* turn : 90deg; */
+    transform: rotateZ(1deg);
+    
+
+    float: left;
+}
+ 
+.logo-taille
+{
+    margin-top: 100px;
+    width: 180px;
+
+}
+.rea
+{
+     font-family: 'Milkshake';
+}
+.titre
+{
+    font-family: 'Milkshake';
+    font-size: 80px;
+}
+.center
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.iframeReview
+{
+    width: 300px;
+    height: 200px;
+}
+.review
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.boutons
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0.5rem;
+    flex-direction: column;
+}
+.layout-commentaire
+{
+    display: flex;
+    justify-content: center;
+}
+.boutons button
+{
+    
+    margin: 0.5rem;
+}
+.grey
+{
+    color: grey;
+}
+.black
+{
+    color: black;
+}
+.green
+{
+    color: green;
+}
+.blue
+{
+    color: blue;
+}
+.white
+{
+    color: white;
+}
+.travaux-titre
+{
+    font-size: 50%;
+    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: -5rem;
+}
+.layout-travaux
+{
+    display: flex;
+    flex-direction: column;
+ 
+    height:600px;
+    align-items: center;
+}
+.carousel-taille
+{
+    width: 50%;
+    height: 50%;
+    padding: 1rem;
+}
+.rappel-bouton
+{
+    position: absolute;
+    right: 0px;
+    margin: 10px;
+}
+.commentaire
+{
+    margin: 50px;
+}
+.commentaire div h2
+{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.commentaire div a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+.centre{
+    text-align: center;
+}
+.centre
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.jsp
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+}
+.realisation
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+}
+.ok
+{
+    padding: 5px;
+    width: 30%;
+    border: 0;
+    color: black;
+}
+.txt-center
+{
+    text-align: center;
+}
+.ok:hover
+{
+    text-decoration: none;
+    color: orange;
+}
+.ok h5
+{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.designed
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(9, 2, 50);
+    flex-direction: column;
+}
+.decalagelogo
+{
+    margin-top: 4rem;
+}
+.realisation a 
+{
+    margin: 1rem;
+}
+.image img {
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+
+.layout-presentation .card:hover .image img {
+    transform: scale(1.5)
+}
+
+.layout-presentation .btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%
+}
+
+.layout-presentation .name {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.layout-presentation .idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.layout-presentation .idd1 {
+    font-size: 12px
+}
+
+.layout-presentation .number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.layout-presentation .follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.layout-presentation .btn1 {
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #000;
+    color: #aeaeae;
+    font-size: 15px
+}
+
+.layout-presentation .text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.layout-presentation .icons i {
+    font-size: 19px
+}
+
+.layout-presentation hr .new1 {
+    border: 1px solid
+}
+
+.layout-presentation .join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.layout-presentation .date {
+    background-color: #ccc
+}
+#map
+{
+    /* Set the size of the div element that contains the map */
+
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+
+}
+.img-patrick
+{
+    margin: 0;
+    width: fit-content;
+    margin-right: 5rem;
+}
+.img-ravalement1
+{
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+     display:flex;
+        align-items:center;
+
+
+}
+.img-ravalement2
+{
+
+    width: 400px;
+    margin-bottom: 20px;
+     display:flex;
+        align-items:center;
+    margin-top: 20px;
+
+}
+.papa
+{
+    text-align:center;
+}
+.ombre
+{
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 75%);
+    margin-top: -5rem;
+    
+
+    
+}
+.card-group-size
+{
+    width:40%;
+}
+.placement
+{
+    background-image: url(./Divers/IMG_2686.JPG);
+    background-attachment: initial !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.text-presentation
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.flou
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem;
+    font-family: 'Yeseva One', cursive;
+}
+.placement2
+{
+    background-image: url(./imgTravaux/AdobeStock_363920470.jpeg);
+    background-attachment: initial !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.placement4
+{
+    background-image: url(./imgTravaux/IMG_01641.jpg);
+    background-attachment: initial !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.placement3
+{
+    background-image: url(./Divers/IMG_0163.jpg);
+    background-attachment: initial !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.placement5
+{
+    background-image: url(./Divers/IMG_0345.JPG);
+    background-attachment: initial !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.font-italic
+{
+    font-family:"Yeseva One", cursive;
+}
+.placement6
+{
+    background-image: url(./Divers/IMG_0247.JPG);
+    background-attachment: initial !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.description-span
+{
+    margin-bottom: 10rem;
+    height: 50%;
+    width: 50%;
+    font-family: "Yeseva One", cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.ombrenormal
+{
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 75%);
+}
+.map
+{
+    width: 582px;
+    height: 548px;
+}
+.layout-card-group .carousel
+{
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 75%);
+}
+.swatchhover:hover
+{
+    color: white;
+    border: #000;
+    border: 3px;
+    border-style: solid;
+}
+ 
+.containerswach a
+{
+    width: 100%;
+}
+.a
+{
+    text-align:center;
+    
+}
+.b 
+{
+    text-align:center;
+        font-size: 15px;
+    font-weight: bold;
+    
+}
+
+/* telephone */
+@media only screen and (min-width: 800px) {
+    .papa
+    {
+        width:50%;
+    }
+       .iframeReview
+{
+    width: 700px;
+    height: 200px;
+}
+.layout-travaux
+    {
+        height: 1200px;
+    }
+    .img-ravalement1
+{
+        margin-left: 20px;
+    width: 400px;
+     display:flex;
+        align-items:center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right:15px;
+
+
+}
+.img-ravalement2
+{
+    margin-right:20px;
+    width: 400px;
+     display:flex;
+        align-items:center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+       margin-left:15px;
+
+}
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        
+        font-size: 0.8rem;
+    }
+    .container
+    {
+        max-width: 250px;
+    }
+    .layout-presentation
+    {
+    grid-area: presentation;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .layout-sidebar
+    {
+        background-color: #ffbf00;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .layout-wrapper-travaux .layout-sidebar2
+    {
+        grid-area: sidebar2;
+    background-color: #ffbf00;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .description-span
+    {
+    margin-bottom: 5rem;
+    height: 50%;
+    width: 100%;
+    font-family: "Yeseva One", cursive;
+    font-size: 30px;
+    text-align: center;
+    }
+    .banner-images
+    {
+        display: flex;
+        flex-direction: column;
+        /* align-content: stretch; */
+        align-items: center;
+    }
+    .map
+    {
+    width: 200px;
+    height: 200px;
+    }
+    .main
+    {
+        width: 100%;
+    }
+    .img-patrick
+    {
+        margin: 0;
+        width: fit-content;
+        margin-right:0;
+    }
+    .logo-taille
+    {
+        margin: 0;
+
+        width: 100px;
+
+    }
+    .boutons
+    {
+        height: 100%;
+    }
+    .card-group-size
+    {
+        width:100%;
+    }
+    .card-group .card
+    {
+        flex:100%
+    }
+    .layout-card-group .card-group 
+    {
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: column;
+    }
+    .img-ravalement1
+    {
+        display:flex;
+        align-items:center;
+        width: 65%;
+    }
+    .img-ravalement2
+    {
+         display:flex;
+        align-items:center;
+        width: 65%;
+    }
+    .layout-banner .ombre
+    {
+        width: 80%;
+    }
+    .titre
+    {
+        font-size: 30px;
+    }
+    .sb-container div
+    {
+        width: 130px;
+        height: 400px;
+    }
+    .layout-content
+{
+    grid-area: content;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr auto 20% auto;
+    grid-template-areas:
+    "presentation"
+    "travaux"
+    "commentaire"
+    "contact"
+    "footer";
+}
+}
+

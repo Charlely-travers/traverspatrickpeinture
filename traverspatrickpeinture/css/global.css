@@ -1,0 +1,110 @@
+.flex
+{
+    display: flex;
+}
+.justify-between
+{
+    justify-content: space-between;
+}
+.items-center
+{
+    align-items: center;
+}
+.container
+{
+    padding: 1rem;
+}
+.show
+{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.tg
+{
+    overflow: hidden;
+}
+.realisation .card
+{
+    width: 30rem;
+}
+.justify-center
+{
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        
+        font-size: 0.8rem;
+    }
+    .container
+    {
+        max-width: 250px;
+    }
+    .layout-presentation
+    {
+    grid-area: presentation;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .layout-sidebar
+    {
+        background-color: #ffbf00;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .layout-sidebar2
+    {
+        grid-area: sidebar2;
+    background-color: #ffbf00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .description-span
+    {
+    margin-bottom: 5rem;
+    height: 50%;
+    width: 100%;
+    font-family: "Yeseva One", cursive;
+    font-size: 30px;
+    text-align: center;
+    }
+    .banner-images
+    {
+        display: flex;
+        flex-direction: column;
+        /* align-content: stretch; */
+        align-items: center;
+    }
+    .map
+    {
+    width: 450px;
+    height: 450px;
+    }
+    .main
+    {
+        width: 100%;
+    }
+    .img-patrick
+    {
+        margin: 0;
+        width: fit-content;
+        margin-right:0;
+    }
+    .logo-taille
+    {
+        margin: 0;
+
+        width: 100px;
+
+    }
+    .boutons
+    {
+        height: 100%;
+    }
+
+}

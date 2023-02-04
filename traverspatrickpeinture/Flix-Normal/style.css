@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Flix';
+    src: local('Flix Normal'), local('Flix-Normal'),
+        url('Flix-Normal.woff2') format('woff2'),
+        url('Flix-Normal.woff') format('woff'),
+        url('Flix-Normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
