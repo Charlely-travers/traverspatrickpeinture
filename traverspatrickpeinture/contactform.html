@@ -67,7 +67,7 @@
                             </form> -->
 
 
-                            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdPQUUMDyTUBcWVQXWnQFjlgG7BLQN0p7vTNUI0brMuM8YLrg/formResponse?" >
+                            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdPQUUMDyTUBcWVQXWnQFjlgG7BLQN0p7vTNUI0brMuM8YLrg/formResponse?"  target="hidden_iframe" onsubmit="submitted=true">
                                 <div class="mb-1">
                                     <label for="exampleInputEmail1" class="form-label">Nom</label>
                                     <input type="text" class="form-control" id="exampleInputEmail1 entry.607353261" v-model="formEmail.nom" aria-describedby="Nom"
@@ -107,7 +107,7 @@
                                     </button>
                                 </div>
                             </form>
-
+                            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location.href = './redirect.html'; }"></iframe>
                         </div>
                     </div>
                 </div>
